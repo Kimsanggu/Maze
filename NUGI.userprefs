@@ -1,0 +1,18 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\02. Script\PlayerCtrl.cs">
+    <Files>
+      <File FileName="Assets\02. Script\RaycastTest.cs" Line="37" Column="4" />
+      <File FileName="Assets\02. Script\PlayerCtrl.cs" Line="54" Column="23" />
+      <File FileName="Assets\02. Script\BarrelCtrl.cs" Line="1" Column="1" />
+      <File FileName="Assets\02. Script\JoystickScripts\JoyStick.cs" Line="1" Column="1" />
+      <File FileName="Assets\02. Script\FireCtrl.cs" Line="12" Column="29" />
+      <File FileName="Assets\02. Script\FollowCam.cs" Line="1" Column="1" />
+      <File FileName="Assets\02. Script\Monster1.cs" Line="25" Column="38" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
