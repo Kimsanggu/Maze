@@ -22,7 +22,7 @@ public class RaycastTest : MonoBehaviour
 	void Update()
 	{
 		CastBlock();
-		if (isAuto && !isTarget) {
+		if (!isTarget) {
 			SetAutoTarget();
 			AutoTarget();
 		}
@@ -33,14 +33,14 @@ public class RaycastTest : MonoBehaviour
 	}
 	void AutoTarget(){
 		Destroy(target);
-		if (!isAutoTarget) {
+		if (!isAutoTarget) {//isAutoTarget==false //오토타겟이 없을때 
 
 			target = Instantiate (AutoTargetImage, AutoTr.position + vv * 0.2f, AutoTr.rotation)as GameObject;
 			target.transform.Rotate (90, 0, 0);
 			target.transform.parent = AutoTr.transform;
 			isAutoTarget=true;
 		}
-		if((target.transform.position != AutoTr.transform.position)){
+		if((target.transform.position != AutoTr.transform.position)){//현재의 타겟위치와 오토타겟의 위치가 같이 않을때 
 
 			target = Instantiate (AutoTargetImage, AutoTr.position + vv * 0.2f, AutoTr.rotation)as GameObject;
 			target.transform.Rotate(90,0,0);

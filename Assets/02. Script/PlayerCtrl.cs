@@ -39,7 +39,7 @@ public class PlayerCtrl : MonoBehaviour {
 	
 		float Min = 10.0f;
 		foreach (Collider coll in colls) {
-
+			Debug.Log(coll);
 
 			if(coll.gameObject.tag=="Monster"){
 				if(Min>Distance(coll.transform,tr)){
@@ -51,13 +51,7 @@ public class PlayerCtrl : MonoBehaviour {
 			}
 		}
 
-		if (MinTr == null) {
-			Debug.Log("null");
-		}else{
-			//if(Distance(MinTr.transform,tr)	>10.0f){
-				Auto = false;
-				MinTr=null;
-		}
+
 
 
 	}

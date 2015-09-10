@@ -8,7 +8,7 @@ public class Monster1 : MonoBehaviour {
 	private NavMeshAgent nvAgent;//NavMeshAgent 컴포넌트
 	public float hp =100.0f;
 	public float ad = 10.0f;
-	public float traceDist = 10.0f;
+	public float traceDist = 3.0f;
 	public float attackDist = 2.0f;
 	private bool isDie = false;
 

@@ -49,7 +49,7 @@ public class FireCtrl : MonoBehaviour {
 		Vector3 dir = TargetTr.position-PlayerTr.position;
 		dir.y = 0;
 		degree = (Mathf.Atan2(dir.x, dir.z) * Mathf.Rad2Deg + 360f) % 360f;
-		Debug.Log ("Target : "+TargetTr.position+"Player : "+PlayerTr.position+"Degree :"+degree);
+		//Debug.Log ("Target : "+TargetTr.position+"Player : "+PlayerTr.position+"Degree :"+degree);
 	}
 	void SetTarget(){
 		if (isTarget) {
